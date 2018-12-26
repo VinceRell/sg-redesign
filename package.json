@@ -1,0 +1,19 @@
+{
+  "name": "sg-redesign",
+  "version": "1.0.0",
+  "description": "A redesign of the security-guards website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VinceRell/sg-redesign.git"
+  },
+  "author": "Vincent Rellum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VinceRell/sg-redesign/issues"
+  },
+  "homepage": "https://github.com/VinceRell/sg-redesign#readme"
+}
