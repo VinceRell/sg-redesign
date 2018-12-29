@@ -1,10 +1,11 @@
 .main-header {
     width: 100%;
-    border-bottom: 2px solid var(--main-color);
+    border-bottom: 3px solid var(--main-color);
 
     &__logo {
         margin: 1rem;
-        max-width: 500px;
+        max-width: 380px;
+        margin: 0 auto
     }
 
     &__toggle-button {
@@ -40,30 +41,13 @@
         transform: translateY(5px);
     }
 
-}
-
-@media (min-width: 500px) {
-    .main-header{
-
-        &__logo {
-            border: none;
-            margin: 0 auto;
-        }
-    }
-}
-
-
-@media (min-width: 550px) {
-    .main-header{
-
+    @include breakpoint(tablet) {
         &__toggle-button {
             display: none;
         }
     }
-}
 
-@media (min-width: 700px) {
-    .main-header {
+    @include breakpoint(desktop) {
         display: flex;
         flex-direction: row;
         align-items: flex-end;
@@ -76,4 +60,6 @@
             margin-left: 0.5rem;
         }
     }
+
 }
+

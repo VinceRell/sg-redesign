@@ -86,6 +86,39 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./app/assets/images/hero--large.jpg":
+/*!*******************************************!*\
+  !*** ./app/assets/images/hero--large.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"./images/25450fda11b337fcca0c5ac16e58c874.jpg\";\n\n//# sourceURL=webpack:///./app/assets/images/hero--large.jpg?");
+
+/***/ }),
+
+/***/ "./app/assets/images/hero--medium.jpg":
+/*!********************************************!*\
+  !*** ./app/assets/images/hero--medium.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"./images/4c796a3200b5d0c1d04e5f2e4b06e926.jpg\";\n\n//# sourceURL=webpack:///./app/assets/images/hero--medium.jpg?");
+
+/***/ }),
+
+/***/ "./app/assets/images/hero--small.jpg":
+/*!*******************************************!*\
+  !*** ./app/assets/images/hero--small.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"./images/8b230b1c55edff6d94c7800764d6b358.jpg\";\n\n//# sourceURL=webpack:///./app/assets/images/hero--small.jpg?");
+
+/***/ }),
+
 /***/ "./app/assets/images/logo.png":
 /*!************************************!*\
   !*** ./app/assets/images/logo.png ***!
@@ -105,7 +138,7 @@ eval("module.exports = \"./images/6cce7d1038b17edf92b9d52bd3cb0c8d.png\";\n\n//#
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/main.scss */ \"./app/assets/styles/main.scss\");\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_main_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _images_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/logo.png */ \"./app/assets/images/logo.png\");\n/* harmony import */ var _images_logo_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_images_logo_png__WEBPACK_IMPORTED_MODULE_1__);\n//css import\n //image imports\n\n\n\n//# sourceURL=webpack:///./app/assets/scripts/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/main.scss */ \"./app/assets/styles/main.scss\");\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_main_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _images_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/logo.png */ \"./app/assets/images/logo.png\");\n/* harmony import */ var _images_logo_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_images_logo_png__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _images_hero_small_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/hero--small.jpg */ \"./app/assets/images/hero--small.jpg\");\n/* harmony import */ var _images_hero_small_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_images_hero_small_jpg__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _images_hero_medium_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/hero--medium.jpg */ \"./app/assets/images/hero--medium.jpg\");\n/* harmony import */ var _images_hero_medium_jpg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_images_hero_medium_jpg__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _images_hero_large_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/hero--large.jpg */ \"./app/assets/images/hero--large.jpg\");\n/* harmony import */ var _images_hero_large_jpg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_images_hero_large_jpg__WEBPACK_IMPORTED_MODULE_4__);\n//css import\n //image imports\n\n\n\n\n\n\n//# sourceURL=webpack:///./app/assets/scripts/main.js?");
 
 /***/ }),
 

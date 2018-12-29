@@ -14,14 +14,13 @@ module.exports = {
         rules: [
             {
                 test: /\.(html)$/,
-                use:[
-                    {
-                        loader: "html-loader",
-                        options: {
-                            minimize: false
-                        }
-                    }
-                ]
+                loader: 'html-srcsets-loader',
+                options: {
+                    attrs: ['img:src', ':srcset'],
+                    minimize: false,
+                    caseSensitive: true,
+                    removeAttributeQuotes:false
+                }
             },
             {
                 test: /\.(gif|png|jpe?g|svg)/i,

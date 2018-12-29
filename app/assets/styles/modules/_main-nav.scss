@@ -1,5 +1,5 @@
 .main-nav {
-    // display: none;
+     display: none;
     
     &__items {
         margin: 0;
@@ -42,10 +42,8 @@
         background: var(--main-color);
         color: #fff;
     }
-}
 
-@media (min-width: 550px) {
-    .main-nav {
+    @include breakpoint(tablet) {
         display: block;
 
         &__items {
@@ -67,12 +65,9 @@
             border: none;
         }
     }
-}
 
-
-@media (min-width: 700px) {
-    .main-nav {
-
+    @include breakpoint(desktop) {
+        
         &__items {
             align-items: flex-end;
         }
@@ -84,3 +79,4 @@
         }
     }
 }
+
