@@ -13,21 +13,23 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\html$/,
-                use: [{loader: "html-loader", options: {minimize: false}}]
-            },
-            {
-                test: /\.(gif|png|jpe?g|svg)/i,
-                use: [
+                test: /\.(html)$/,
+                use:[
                     {
-                        loader: "file-loader",
+                        loader: "html-loader",
                         options: {
-                            name: "[name].[ext]",
-                            outputPath: "./images/",
-                            publicPath: "./images/"
+                            minimize: false
                         }
                     }
                 ]
+            },
+            {
+                test: /\.(gif|png|jpe?g|svg)/i,
+                loader: "file-loader",
+                options: {
+                    publicPath: "./images",
+                    outputPath: "./images"
+                }
             },
             {
                 test: /\.js$/,

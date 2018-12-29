@@ -86,14 +86,37 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./app/assets/scripts/main.js":
+/***/ "./app/assets/images/logo.png":
 /*!************************************!*\
-  !*** ./app/assets/scripts/main.js ***!
+  !*** ./app/assets/images/logo.png ***!
   \************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log(\"Hello\");\n\n//# sourceURL=webpack:///./app/assets/scripts/main.js?");
+eval("module.exports = \"./images/6cce7d1038b17edf92b9d52bd3cb0c8d.png\";\n\n//# sourceURL=webpack:///./app/assets/images/logo.png?");
+
+/***/ }),
+
+/***/ "./app/assets/scripts/main.js":
+/*!************************************!*\
+  !*** ./app/assets/scripts/main.js ***!
+  \************************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/main.scss */ \"./app/assets/styles/main.scss\");\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_main_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _images_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/logo.png */ \"./app/assets/images/logo.png\");\n/* harmony import */ var _images_logo_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_images_logo_png__WEBPACK_IMPORTED_MODULE_1__);\n//css import\n //image imports\n\n\n\n//# sourceURL=webpack:///./app/assets/scripts/main.js?");
+
+/***/ }),
+
+/***/ "./app/assets/styles/main.scss":
+/*!*************************************!*\
+  !*** ./app/assets/styles/main.scss ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./app/assets/styles/main.scss?");
 
 /***/ })
 
