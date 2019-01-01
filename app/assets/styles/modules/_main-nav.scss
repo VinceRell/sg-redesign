@@ -39,7 +39,7 @@
 
     &__item a:hover,
     &__iemt a:focus {
-        background: var(--main-color);
+        background: $main-color;
         color: #fff;
     }
 
