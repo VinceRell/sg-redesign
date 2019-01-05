@@ -55,6 +55,26 @@ module.exports = {
             filename: "./index.html"
         }),
 
+        new HtmlWebpackPlugin({
+            template: "./app/diensten.html",
+            filename: "./diensten.html"
+        }),
+
+        new HtmlWebpackPlugin({
+            template: "./app/over-ons.html",
+            filename: "./over-ons.html"
+        }),
+
+        new HtmlWebpackPlugin({
+            template: "./app/contact.html",
+            filename: "./contact.html"
+        }),
+
+        new HtmlWebpackPlugin({
+            template: "./app/vacatures.html",
+            filename: "./vacatures.html"
+        }),
+
         new MiniCssExtractPlugin({
             filename: "[name].css",
             chunkFilename: "[id].css"
