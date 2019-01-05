@@ -4,19 +4,21 @@
     align-items: center;
     justify-content: center;
     background: #333;
+    font-size: 0.85rem;
 
     &__top {
         color: #fff;
-        width: 950px;
+        width: 100%;
         display: flex;
-        flex-direction: row;
-        align-items: center;
+        flex-direction: column;
+        align-items: flex-start;
         justify-content: space-between;
     }
 
     &__link-items,
     &__contact-items {
-        margin: 1rem 0;
+        margin: 1rem;
+        padding: 0;
     }
 
     &__link-item,
@@ -30,9 +32,28 @@
         color: #fff;
     }
 
+    &__fb-icon {
+        background: #fff;
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        position: relative;
+        border-radius: 50%;
+    }
+
+    &__fb-icon a {
+        color: #333;
+        font-size: 1.2rem;
+        font-weight: 700;
+        position: absolute;
+        top: 12%;
+        left: 35%;
+    }
+
     &__logo {
-        width: 130px;
+        width: 125px;
         height: auto;
+        margin: 1rem;
     }
 
     &__bottom {
@@ -41,6 +62,13 @@
         padding: 5px;
         text-align: center;
         width: 100%;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
+    }
+
+    @include breakpoint(tablet) {
+        &__top {
+            max-width: 800px;
+            flex-direction: row;
+        }
     }
 }

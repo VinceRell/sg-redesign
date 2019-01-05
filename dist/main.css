@@ -56,7 +56,7 @@ img {
         margin: 0;
         width: 280px;
         margin-top: 0.5rem;
-        margin-left: 0.5rem; } }
+        margin-left: 1rem; } }
 
 .main-nav {
   display: none; }
@@ -105,12 +105,14 @@ img {
       .main-nav__item:first-child {
         border: none; } }
   @media (min-width: 700px) {
-    .main-nav__items {
-      align-items: flex-end; }
-    .main-nav__item {
-      margin-right: 10px;
-      margin-left: 0;
-      width: 95px; } }
+    .main-nav {
+      margin-right: 1rem; }
+      .main-nav__items {
+        align-items: flex-end; }
+      .main-nav__item {
+        margin-right: 10px;
+        margin-left: 0;
+        width: 95px; } }
 
 .large-hero {
   position: relative;
@@ -178,16 +180,18 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #333; }
+  background: #333;
+  font-size: 0.85rem; }
   .main-footer__top {
     color: #fff;
-    width: 950px;
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: space-between; }
   .main-footer__link-items, .main-footer__contact-items {
-    margin: 1rem 0; }
+    margin: 1rem;
+    padding: 0; }
   .main-footer__link-item, .main-footer__contact-item {
     list-style: none;
     margin: 0.5rem 0; }
@@ -195,14 +199,33 @@ img {
   .main-footer__contact-item a {
     text-decoration: none;
     color: #fff; }
+  .main-footer__fb-icon {
+    background: #fff;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    border-radius: 50%; }
+  .main-footer__fb-icon a {
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: 700;
+    position: absolute;
+    top: 12%;
+    left: 35%; }
   .main-footer__logo {
-    width: 130px;
-    height: auto; }
+    width: 125px;
+    height: auto;
+    margin: 1rem; }
   .main-footer__bottom {
     background: #1c1c1c;
     color: #fff;
     padding: 5px;
     text-align: center;
     width: 100%;
-    font-size: 0.9rem; }
+    font-size: 0.8rem; }
+  @media (min-width: 550px) {
+    .main-footer__top {
+      max-width: 800px;
+      flex-direction: row; } }
 
