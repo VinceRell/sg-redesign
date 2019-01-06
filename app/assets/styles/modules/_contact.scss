@@ -9,17 +9,26 @@
     }
 
     &__subtitle {
+        max-width: 850px;
+        margin: 1rem auto;
+        padding: 0 1rem;
         text-align: center;
         font-weight: 700;
-        margin: 1rem 0 0 0;
-        padding: 0 1rem;
+    }
+
+    &__content {
+        max-width: 950px;
+        margin: 2rem auto;
+        display: flex;
+        flex-direction: column;
     }
 
     &__form {
         max-width: 450px;
         height: 450px;
-        margin: 2rem 1rem;
-        box-shadow: 1px 1px 2px rgba(0,0,0, 0.2);
+        margin: 1rem;
+        border: 1px solid #ccc;
+        box-shadow: 1px 1px 2px rgba(0,0,0, 0.3);
 
         &-field {
             margin: 0.5rem auto;
@@ -28,12 +37,12 @@
 
         &-field label {
             font-weight: 600;
+            color: $secondary-color;
         }
 
         &-field input {
             width: 100%;
             height: 27px;
-            margin-top: 3px;
             border: 1px solid #ccc;
             border-radius: 3px;
             padding: 0.5rem;
@@ -43,7 +52,6 @@
         &-field textarea {
             width: 100%;
             height: 140px;
-            margin-top: 3px;
             border: 1px solid #ccc;
             border-radius: 3px;
         }
@@ -58,8 +66,9 @@
             display: block;
             width: 90px;
             height: 35px;
-            margin:0.5rem;
-            font-weight: 600;
+            margin: 0.5rem;
+            font-size: 0.9rem;
+            color: #fff;
             border: none;
             border-radius: 3px;
             background: $main-color;
@@ -68,17 +77,50 @@
 
     }
 
-    @include breakpoint(tablet) {
+    &__info {
+        margin: 1rem;
+        
+        &-title {
+            color: $secondary-color;
+        }
 
+        &-items {
+            padding: 0;
+        }
+
+        &-item {
+            list-style: none;
+            margin: 0.7rem 0;
+            font-weight: 600;
+        }
+    }
+
+    @include breakpoint(tablet) {
         &__title {
             font-size: 1.8rem;
         }
-
     }
 
     @include breakpoint(desktop) {
         &__title {
             font-size: 2.2rem;
+        }
+
+        &__form {
+            order: 1;
+            width: 100%;
+            margin: 0;
+        }
+        
+        &__info {
+            order: 2;
+            margin: 0;
+        }
+
+        &__content {
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: space-between;
         }
     }
 }
