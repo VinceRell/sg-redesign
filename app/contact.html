@@ -10,14 +10,15 @@
 
 <body>
     <!-- site header -->
-    <header class="main-header">
+    <!-- site header -->
+    <header class="main-header" id="main-header">
         <div class="main-header__logo">
             <img src="./assets/images/logo.png" alt="SG-Logo">
         </div>
-        <div class="main-header__toggle-button">
+        <div class="main-header__toggle-button" id="toggle-button">
             <div class="main-header__menu-bar"></div>
         </div>
-        <nav class="main-nav">
+        <nav class="main-nav" id="main-nav">
             <ul class="main-nav__items">
                 <li class="main-nav__item"><a href="index.html">Home</a></li>
                 <li class="main-nav__item"><a href="diensten.html">Diensten</a></li>
@@ -36,43 +37,43 @@
             <p class="contact__subtitle">Heeft U meer vragen over SecurityGuards dan kunt U ons gemakkelijk telefonisch
                 bereiken of U kunt uw vraag naar ons toe mailen.
                 Ook kunt U ons bezoeken op onze locatie.</p>
-            
 
-            <div class="contact__content">   
-            <!-- contact info -->
-            <article class="contact__info">
-                <h3 class="contact__info-title">Bezoekadres</h3>
-                <ul class="contact__info-items">
-                    <li class="contact__info-item">Argonweg 74</li>
-                    <li class="contact__info-item">1362AD Almere</li>
-                    <li class="contact__info-item">Tel: 06-27849562</li>
-                    <li class="contact__info-item">email: info@SecurityGuards.nl</li>
-                </ul>
-            </article>
 
-            <!-- contact form -->
-            <form action="#" method="POST" class="contact__form">
-                <div class="contact__form-field">
-                    <label for="Naam">Naam*</label>
-                    <input type="text" id="Naam" required>
-                </div>
+            <div class="contact__content">
+                <!-- contact info -->
+                <article class="contact__info">
+                    <h3 class="contact__info-title">Bezoekadres</h3>
+                    <ul class="contact__info-items">
+                        <li class="contact__info-item">Argonweg 74</li>
+                        <li class="contact__info-item">1362AD Almere</li>
+                        <li class="contact__info-item">Tel: 06-27849562</li>
+                        <li class="contact__info-item">email: info@SecurityGuards.nl</li>
+                    </ul>
+                </article>
 
-                <div class="contact__form-field">
-                    <label for="Bedrijf">Bedrijf*</label>
-                    <input type="text" id="Bedrijf" required>
-                </div>
+                <!-- contact form -->
+                <form action="#" method="POST" class="contact__form">
+                    <div class="contact__form-field">
+                        <label for="Naam">Naam*</label>
+                        <input type="text" id="Naam" required>
+                    </div>
 
-                <div class="contact__form-field">
-                    <label for="Email">Email*</label>
-                    <input type="email" id="Email" required>
-                </div>
+                    <div class="contact__form-field">
+                        <label for="Bedrijf">Bedrijf*</label>
+                        <input type="text" id="Bedrijf" required>
+                    </div>
 
-                <div class="contact__form-field">
-                    <label for="Bericht">Bericht*</label>
-                    <textarea name="Bericht" id="Bericht"></textarea>
-                </div>
+                    <div class="contact__form-field">
+                        <label for="Email">Email*</label>
+                        <input type="email" id="Email" required>
+                    </div>
 
-                <button class="contact__form-submit">Verstuur</button>
+                    <div class="contact__form-field">
+                        <label for="Bericht">Bericht*</label>
+                        <textarea name="Bericht" id="Bericht"></textarea>
+                    </div>
+
+                    <button class="contact__form-submit">Verstuur</button>
                 </form>
             </div>
         </section>

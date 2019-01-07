@@ -8,3 +8,8 @@ import "../images/hero--medium.jpg";
 import "../images/hero--large.jpg";
 import "../images/jobsite-security.jpg";
 import "../images/erkend.jpg";
+
+//JS imports
+import MobileMenu from "./modules/MobileMenu";
+
+const mobileMenu = new MobileMenu(); 
