@@ -402,3 +402,29 @@ img {
       max-width: 800px;
       flex-direction: row; } }
 
+main {
+  position: relative; }
+
+.scrollTop {
+  display: none;
+  z-index: 99;
+  position: fixed;
+  right: 2%;
+  bottom: 12%;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background: #2E6DE3;
+  transition: all 5s ease-in-out; }
+
+.scrollTop-icon {
+  display: block;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 10px; }
+
+.display-button {
+  display: block; }
+

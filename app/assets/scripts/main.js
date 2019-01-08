@@ -11,5 +11,7 @@ import "../images/erkend.jpg";
 
 //JS imports
 import MobileMenu from "./modules/MobileMenu";
+import ScrollTop from "./modules/ScrollTop";
 
-const mobileMenu = new MobileMenu(); 
+const mobileMenu = new MobileMenu();
+const scrollTop = new ScrollTop(); 
