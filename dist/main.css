@@ -44,6 +44,8 @@ img {
     -webkit-transform: translateY(5px);
             transform: translateY(5px); }
   @media (min-width: 550px) {
+    .main-header__title {
+      font-size: 1.8rem; }
     .main-header__toggle-button {
       display: none; } }
   @media (min-width: 700px) {
@@ -52,6 +54,8 @@ img {
       flex-direction: row;
       align-items: flex-end;
       justify-content: space-between; }
+      .main-header__title {
+        font-size: 2.2rem; }
       .main-header__logo {
         width: 280px;
         margin-top: 0.5rem;
@@ -101,6 +105,8 @@ img {
       height: 100%;
       max-width: 100%;
       position: static; }
+      .main-nav__title {
+        font-size: 1.8rem; }
       .main-nav__items {
         flex-direction: row; }
       .main-nav__item {
@@ -120,6 +126,8 @@ img {
   @media (min-width: 700px) {
     .main-nav {
       max-width: 425px; }
+      .main-nav__title {
+        font-size: 2.2rem; }
       .main-nav__items {
         align-items: flex-end;
         justify-content: space-around; }
@@ -157,12 +165,16 @@ img {
     margin-top: 10px; }
   @media (min-width: 550px) {
     .large-hero__title {
+      font-size: 1.8rem; }
+    .large-hero__title {
       font-size: 2.5rem; }
     .large-hero__subtitle {
       font-size: 1.7rem;
       font-weight: 500;
       margin-top: 13px; } }
   @media (min-width: 700px) {
+    .large-hero__title {
+      font-size: 2.2rem; }
     .large-hero__title {
       font-size: 3.4rem; }
     .large-hero__subtitle {
@@ -173,9 +185,9 @@ img {
   background: #fafafa;
   padding: 4rem 0; }
   .features__title {
-    color: #1B3E82;
-    text-align: center;
-    margin: 0; }
+    margin: 0;
+    color: #2E6DE3;
+    text-align: center; }
   .features__container {
     margin: 0 auto;
     padding: 1rem;
@@ -185,9 +197,13 @@ img {
   @media (min-width: 550px) {
     .features__title {
       font-size: 1.8rem; }
+    .features__title {
+      font-size: 1.8rem; }
     .features__content {
       line-height: 1.9; } }
   @media (min-width: 700px) {
+    .features__title {
+      font-size: 2.2rem; }
     .features__title {
       font-size: 2.2rem; } }
 
@@ -196,7 +212,7 @@ img {
   padding: 4rem 0; }
   .service__title {
     margin: 0;
-    color: #1B3E82;
+    color: #2E6DE3;
     text-align: center; }
   .service__subtitle {
     text-align: center;
@@ -218,7 +234,7 @@ img {
     .service__title {
       font-size: 1.8rem; }
     .service__image-container {
-      background: #2E6DE3; }
+      background: rgba(46, 109, 227, 0.3); }
     .service__image-container img {
       max-width: 675px;
       max-height: 450px;
@@ -236,7 +252,7 @@ img {
   padding: 4rem 0; }
   .about__title {
     margin: 0;
-    color: #1B3E82;
+    color: #2E6DE3;
     text-align: center; }
   .about__subtitle {
     text-align: center;
@@ -269,7 +285,7 @@ img {
   padding: 4rem 0; }
   .contact__title {
     margin: 0;
-    color: #1B3E82;
+    color: #2E6DE3;
     text-align: center; }
   .contact__subtitle {
     max-width: 850px;
@@ -348,6 +364,41 @@ img {
       align-items: flex-start;
       justify-content: space-between; } }
 
+.wanted {
+  background: #fafafa;
+  padding: 4rem 0; }
+  .wanted__title {
+    margin: 0;
+    color: #2E6DE3;
+    text-align: center; }
+  .wanted__subtitle {
+    text-align: center;
+    font-weight: 700;
+    margin: 1rem 0 0 0;
+    padding: 0 1rem; }
+  .wanted__content {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 1rem; }
+    .wanted__content-text {
+      line-height: 1.6; }
+  @media (min-width: 550px) {
+    .wanted__title {
+      font-size: 1.8rem; }
+    .wanted__image-container {
+      background: #2E6DE3; }
+    .wanted__image-container img {
+      max-width: 675px;
+      max-height: 450px;
+      margin: 0 auto; }
+    .wanted__content {
+      padding: 1rem 2rem; }
+      .wanted__content-text {
+        line-height: 1.9; } }
+  @media (min-width: 700px) {
+    .wanted__title {
+      font-size: 2.2rem; } }
+
 .main-footer {
   display: flex;
   flex-direction: column;
@@ -398,6 +449,8 @@ img {
     width: 100%;
     font-size: 0.8rem; }
   @media (min-width: 550px) {
+    .main-footer__title {
+      font-size: 1.8rem; }
     .main-footer__top {
       max-width: 800px;
       flex-direction: row; } }
@@ -416,14 +469,15 @@ main {
   border: none;
   border-radius: 50%;
   background: #2E6DE3;
-  transition: all 5s ease-in-out; }
+  outline: none;
+  cursor: pointer; }
 
 .scrollTop-icon {
   display: block;
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 600;
   color: #fff;
-  margin-top: 10px; }
+  margin-top: 12px; }
 
 .display-button {
   display: block; }

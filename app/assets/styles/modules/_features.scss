@@ -1,12 +1,6 @@
 .features {
-    background: $text-bg;
-    padding: 4rem 0;
-
-    &__title {
-        color: $secondary-color;
-        text-align: center;
-        margin: 0;
-    }
+    
+    @include pageStyle;
 
     &__container {
         margin: 0 auto;

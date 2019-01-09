@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const FaviconWebpackPlugin = require("favicons-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
@@ -73,6 +74,30 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: "./app/vacatures.html",
             filename: "./vacatures.html"
+        }),
+
+        new FaviconWebpackPlugin({
+            logo: "./app/assets/images/favicon.png",
+            prefix: 'icons-[hash]/',
+            emitStats: false,
+            statsFilename: 'iconstats-[hash].json',
+            persistentCache: true,
+            inject: true,
+            background: '#fff',
+            title: 'Webpack App',
+ 
+            icons: {
+              android: true,
+              appleIcon: true,
+              appleStartup: true,
+              coast: false,
+              favicons: true,
+              firefox: true,
+              opengraph: false,
+              twitter: true,
+              yandex: false,
+              windows: false
+            }
         }),
 
         new MiniCssExtractPlugin({

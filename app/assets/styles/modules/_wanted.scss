@@ -1,0 +1,42 @@
+.wanted {
+    
+    @include pageStyle;
+    &__subtitle {
+        text-align: center;
+        font-weight: 700;
+        margin: 1rem 0 0 0;
+        padding: 0 1rem;
+    }
+
+    &__content {
+        margin: 0 auto;
+        max-width: 800px;
+        padding: 1rem;
+
+        &-text {
+            line-height: 1.6;
+        }
+    }
+
+    @include breakpoint(tablet) {     
+        &__image-container {
+            background: $main-color;
+        }
+
+        &__image-container img {
+            max-width: 675px;
+            max-height: 450px;
+            margin: 0 auto;
+        }
+
+        &__content {
+            padding: 1rem 2rem;
+            
+            &-text{
+                line-height: 1.9;
+            }
+        }
+    }
+    
+    @include breakpoint(desktop);
+}

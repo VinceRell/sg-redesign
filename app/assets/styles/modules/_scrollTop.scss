@@ -13,15 +13,16 @@ main {
     border: none;
     border-radius: 50%;
     background: $main-color;
-    transition: all 5s ease-in-out;
+    outline: none;
+    cursor: pointer;
 }
 
 .scrollTop-icon {
     display: block;
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: 600;
     color: #fff;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 .display-button {
